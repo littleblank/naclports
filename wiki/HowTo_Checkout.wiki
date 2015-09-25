@@ -22,7 +22,7 @@ cd naclports
 === 3. Create a .gclient Configuration ===
 
 {{{
-gclient config --name=src  https://chromium.googlesource.com/external/naclports.git
+gclient config --unmanaged --name=src  https://chromium.googlesource.com/external/naclports.git
 }}}
 
 === 4. Sync to the repos ===
